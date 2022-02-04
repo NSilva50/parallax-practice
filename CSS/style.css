@@ -1,0 +1,8 @@
+.naBtn{
+    background-color: grey;
+    border: none;
+    color: white;
+    padding: 24px;
+    font-size: 16px;
+    cursor: pointer;
+}
