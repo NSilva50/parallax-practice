@@ -1,8 +1,63 @@
-.naBtn{
-    background-color: grey;
-    border: none;
+html{
+    height: 100%;
+    width: 100%;
+}
+
+html a{
+    color: #fff;
+}
+
+#start{
+    background-image: url("../IMG/roadtrip1.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+.parallax{
+    /* Set a specific height */
+    min-height: 100vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#part1{
+    background-image: url("../IMG/roadtrip2.jpg");
+}
+
+#part2{
+    background-image: url("../IMG/roadtrip3.jpg");
+}
+
+#part3{
+    background-image: url("../IMG/roadtrip4.jpg");
+}
+
+#part4{
+    background-image: url("../IMG/roadtrip5.jpg");
+}
+
+#box{
+    background: rgba(28, 23, 21, 0.7);;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    max-width: 50vw;
+    max-height: 50vh;
+    top: 250px;
+}
+
+main div{
     color: white;
-    padding: 24px;
-    font-size: 16px;
-    cursor: pointer;
+
+}
+
+footer{
+    background-color: lightcoral;
 }
